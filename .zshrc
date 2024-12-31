@@ -14,9 +14,9 @@ alias cat="bat"
 
 alias yay="paru"
 
-alias vi="nvim"
+alias vim="nvim"
 
-alias code="codium"
+alias code="codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland"
 
 export STARSHIP_CONFIG="/home/defined/.config/starship/starship.toml"
 
