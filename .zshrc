@@ -15,8 +15,12 @@ alias cat="bat"
 alias yay="paru"
 
 alias vim="nvim"
+alias vi="nvim"
 
 alias code="codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland"
+
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
 
 export STARSHIP_CONFIG="/home/defined/.config/starship/starship.toml"
 
